@@ -1,0 +1,81 @@
+# 本机依赖、运行配置与验证产物
+.runtime/
+/.agents/
+/.codex/
+/.aws/
+.novafetch/
+
+# Python 虚拟环境、字节码与构建产物
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+
+# 测试、静态检查与覆盖率缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# 凭据与本机环境文件；允许提交不含真实凭据的配置示例
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.secrets/
+*.pem
+*.key
+/credentials.json
+/secrets.json
+/piper_config.ini
+
+# 实验数据、相机采集与模型输出目录
+/data/
+/datasets/
+/models/
+/checkpoints/
+/runs/
+/outputs/
+/artifacts/
+/captures/
+/recordings/
+/camera_tests/
+raw_episodes/
+pending_review/
+.inprogress/
+lerobot_v21/
+
+# 权重与大型实验数组；文档图片和普通 JSON 配置仍可提交
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.gguf
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.parquet
+*.bag
+
+# 日志、编辑器临时文件与系统元数据
+/logs/
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

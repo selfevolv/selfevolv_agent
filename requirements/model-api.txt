@@ -1,0 +1,2 @@
+# 沿用 Creator 的 HTTP 客户端版本；Pillow 复用现有 RLinf 环境。
+httpx==0.28.1

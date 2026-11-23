@@ -33,6 +33,21 @@ description: selfevolv_agent 项目专用的 Piper 具身智能真机实验规�
 
 现有文档描述的控制链为 `PiperArmController → RLinf.PiperArm → pyAgxArm`，`vendor/piper_sdk` 为历史源码。使用前核对实际接口、单位与运行环境，不混用两套 SDK。文档指定的硬件 Python 为 `/home/youlika/miniconda3/envs/RLinf/bin/python`，本次未验证其运行状态。
 
+## 本项目已提取的控制核心
+
+2026-11-23 按用户要求，将现成控制核心及本地依赖共 10 个文件原样复制到 `src/robot_workbench/`。随后按用户要求仅补充中文注释和文档字符串，执行逻辑保持一致。选取理由、依赖路径、模型调用边界和验证范围见 [控制代码说明](../../docs/piper-control.md)，逐文件 SHA-256 见 [来源清单](../../docs/piper-source-manifest.json)。后续优先使用这份已记录的控制核心；与源项目同步时先比较并保留证据，不自动覆盖。
+
+底层 RLinf、pyAgxArm 和现场配置继续复用外部现有文件。模型动作接入应使用 `PiperArmController.command()`；不得绕过检查直接调用继承的运动方法。`hold()` 是单次命令，持续控制和退出保持流程尚未接入。机械臂控制只通过离线假 SDK 验证，没有连接机械臂；相机与模型接口的后续验证单独记录。
+
+## 相机与 OpenAI 接口
+
+本项目必须同时具备机械臂控制、相机观测与大模型接口，提取范围要覆盖这三部分的必要调用链，不能只提取机械臂驱动。
+
+- 相机实现位于 `src/robot_workbench/hardware/cameras/`，从现有 Piper 项目提取，支持配置驱动的双相机及独立检查。帧为 BGR，本地图片编码后可供 OpenAI 接口读取。
+- 用户已指定使用 OpenAI 接口，来源为 `selfevolv/creator`。已将远端版本 `80706ac424c77a42255dba0cf4f89d782e36ae16` 的必要 API 模块提取至 `src/robot_workbench/integrations/creator/`，保留原执行逻辑，仅补中文说明；不复制应用配置与密钥。
+- 用 `api_backend.run(prompt, images=[...], config=...)` 显式提供 API 配置；依赖与调用示例见 [控制代码说明](../../docs/piper-control.md)。API 接口、控制循环和训练范围是不同职责，不为复用接口复制训练或网页应用。
+- 两台 D435i 真实连续取帧已验证，实际反馈固件为 `5.15.1.55`，不与机械臂固件混淆；模型双图请求等 7 项离线检查通过。真实 OpenAI 服务待配置验证，尚未定义模型输出动作协议或完成视觉控制闭环。
+
 ## 设备信息
 
 以下为 2026-11-23 读取现有文档和现场配置得到的记录，不代表已探测到设备或完成真机验证。

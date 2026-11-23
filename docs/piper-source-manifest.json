@@ -1,0 +1,432 @@
+{
+  "recorded_date": "2026-11-23",
+  "source_root": "/home/youlika/code/piper_master_slave_data_collection",
+  "git_revision": "未知（本次未获 Git 查询授权）",
+  "copied_files": [
+    {
+      "path": "src/robot_workbench/__init__.py",
+      "bytes": 378,
+      "sha256": "7ebaca4c9c77aeab245393016c90c3f70d1f037abfd10d983ae296c7fd5350d1",
+      "annotated_sha256": "c174f9813a6f7af0cc5c9207cb4f13d783d4024b4ecc00b6d64714847ef4dc9b",
+      "annotated_bytes": 388
+    },
+    {
+      "path": "src/robot_workbench/core/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "annotated_sha256": "0d3412cb4a271cd654ccf3d924fae06414d0bc9f83526cc7cc38a06da1ee9d67",
+      "annotated_bytes": 58
+    },
+    {
+      "path": "src/robot_workbench/core/config.py",
+      "bytes": 17003,
+      "sha256": "794e43f698cd3abf473168713cc3b2547f1c3dbb6b4d545af15e8902d0a126de",
+      "annotated_sha256": "968fe586003d3d6f471c7bbc62e1b531a0d5e3059098f5df377d491fb769aad5",
+      "annotated_bytes": 17795
+    },
+    {
+      "path": "src/robot_workbench/core/paths.py",
+      "bytes": 768,
+      "sha256": "6faa2b6d7d65bbcb9dc37e2c322f2cc4a023ba5fa6e091d3d3930b37594ca6f5",
+      "annotated_sha256": "4b9c6271c35a3bcf84d2eb7fe443172d06baa1cab4d60ee5da07f8dd5f2ae5b9",
+      "annotated_bytes": 967
+    },
+    {
+      "path": "src/robot_workbench/collection/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "annotated_sha256": "479f4a992507ce7b3a373bc2f4089d3ff9c302997edda078ed9c269616e25959",
+      "annotated_bytes": 58
+    },
+    {
+      "path": "src/robot_workbench/collection/schema.py",
+      "bytes": 4420,
+      "sha256": "6806a8cfefc2ee8c777732278666d5888a5d993b5e67277b7b1dff4666073230",
+      "annotated_sha256": "4f7168a512de00f4e4aaa98bd877eea8e00c5ee52733c61065e9bce135016d04",
+      "annotated_bytes": 4625
+    },
+    {
+      "path": "src/robot_workbench/hardware/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "annotated_sha256": "25e9f153ac913932a86a3c49c707f37a657d26242d2243c5176afc5144ab97a3",
+      "annotated_bytes": 70
+    },
+    {
+      "path": "src/robot_workbench/hardware/piper.py",
+      "bytes": 14214,
+      "sha256": "3eedba7641e2a5d094316e92944d883d61a9d21e6e4f243d529be0dc9b081106",
+      "annotated_sha256": "f7e98142b8c30b962ce18d05be281897a91282eaabde8fdb2197f7eba41d8613",
+      "annotated_bytes": 17600
+    },
+    {
+      "path": "src/robot_workbench/hardware/state.py",
+      "bytes": 1057,
+      "sha256": "df7421231472a146e7cbcfbb8afe25bada10c9653403c9cb9bd0a3dfc6ff858e",
+      "annotated_sha256": "31e0b990e85a27f29cbb4cdd5706cacb53144deeafbaa907be873143b6d43908",
+      "annotated_bytes": 1675
+    },
+    {
+      "path": "src/robot_workbench/hardware/can_interfaces.py",
+      "bytes": 1354,
+      "sha256": "141c1136bc8354218aae695cb9d381cc6b4df94de6cecc587e540632f7f0a827",
+      "annotated_sha256": "960cf0f3f2cf44c43f008ebc5b44d05fb4b5c9c5f1495018af3f60c0cb5034e9",
+      "annotated_bytes": 1694
+    }
+  ],
+  "external_reference_files_not_copied": [
+    {
+      "path": "/home/youlika/code/github/RLinf/rlinf/robotics/parts/arms/piper.py",
+      "sha256": "092e2a346f687500df9640d4324635faf8428e219f420b8a58689671807b6943"
+    },
+    {
+      "path": "/home/youlika/code/github/RLinf/rlinf/robotics/parts/claims.py",
+      "sha256": "e869c86736afcdffc7f33fcee408879270a1e2a7c987fb8cd8b435d68fd07ff0"
+    },
+    {
+      "path": "/home/youlika/code/piper_master_slave_data_collection/scripts/setup_hardware.py",
+      "sha256": "8d5b8c31704f6b184705634b10dd761e95723118aa53cffff89acaff3e22025f"
+    },
+    {
+      "path": "/home/youlika/code/piper_master_slave_data_collection/.runtime/config/piper_config.ini",
+      "sha256": "abb63a427a1d1925dc874f9d10610c5dec6b4d89bbd1f94641b51c3092d3c2ac"
+    }
+  ],
+  "annotation_update": {
+    "date": "2026-11-23",
+    "scope": "按用户要求仅补充中文注释和文档字符串；未改动导入、签名、类型、数值或执行逻辑。",
+    "hash_semantics": "bytes/sha256 保留原始提取版本；annotated_bytes/annotated_sha256 记录当前注释版本。",
+    "validation": "全部 10 个文件去除文档字符串后的 AST 与修改前一致，语法检查通过；外部源文件 SHA-256 未变。"
+  },
+  "camera_policy_extraction": {
+    "date": "2026-11-23",
+    "git_revision": "未知（本次未执行 Git）",
+    "files": [
+      {
+        "source": "/home/youlika/code/piper_master_slave_data_collection/src/robot_workbench/hardware/cameras/__init__.py",
+        "path": "src/robot_workbench/hardware/cameras/__init__.py",
+        "bytes": 661,
+        "sha256": "4b595b1683d698ce75391853eae96a216b2986d4bf498bf3e055bcdf4531c576",
+        "annotated_sha256": "4b595b1683d698ce75391853eae96a216b2986d4bf498bf3e055bcdf4531c576",
+        "annotated_bytes": 661
+      },
+      {
+        "source": "/home/youlika/code/piper_master_slave_data_collection/src/robot_workbench/hardware/cameras/base.py",
+        "path": "src/robot_workbench/hardware/cameras/base.py",
+        "bytes": 5291,
+        "sha256": "52ea6c4dd621825cc1376581f2d74a670a292d0aff599afb2e255e961b801ee4",
+        "annotated_sha256": "f7371aad2297ac090e8c90bc9b48159f3ff25b75f4f6f59d2edff51d58c1f338",
+        "annotated_bytes": 6257
+      },
+      {
+        "source": "/home/youlika/code/piper_master_slave_data_collection/src/robot_workbench/hardware/cameras/frames.py",
+        "path": "src/robot_workbench/hardware/cameras/frames.py",
+        "bytes": 702,
+        "sha256": "ed07eca28909d8acce01c0cb712e9903b3f4376ca8a4a9d0d29f4ae293bf347f",
+        "annotated_sha256": "043adbf11df4de7f9592ff5e81676978ab49bcb2c8c6a6d611be229a54d477f4",
+        "annotated_bytes": 731
+      },
+      {
+        "source": "/home/youlika/code/piper_master_slave_data_collection/src/robot_workbench/hardware/cameras/rig.py",
+        "path": "src/robot_workbench/hardware/cameras/rig.py",
+        "bytes": 3335,
+        "sha256": "6720dcafe6ef94fc606aae179108b725acd353d997ecf48e27b46a7b295f91f1",
+        "annotated_sha256": "519d8ec8400dd97ce628e9ab98829bcdcd6611b24d789b71f26ecbd2d7656ff7",
+        "annotated_bytes": 4088
+      },
+      {
+        "source": "/home/youlika/code/piper_master_slave_data_collection/src/robot_workbench/hardware/cameras/models/__init__.py",
+        "path": "src/robot_workbench/hardware/cameras/models/__init__.py",
+        "bytes": 429,
+        "sha256": "a65c38ea5b3c8d4bb76b775e3e0455b5cf5f190d1042bb546f44a2f2a332686c",
+        "annotated_sha256": "a65c38ea5b3c8d4bb76b775e3e0455b5cf5f190d1042bb546f44a2f2a332686c",
+        "annotated_bytes": 429
+      },
+      {
+        "source": "/home/youlika/code/piper_master_slave_data_collection/src/robot_workbench/hardware/cameras/models/dabai_dc1.py",
+        "path": "src/robot_workbench/hardware/cameras/models/dabai_dc1.py",
+        "bytes": 2953,
+        "sha256": "ac21b2c6328fa1ce2e8d76112c4ea6b8ded065ea0cb23e79e7b99be72f80d338",
+        "annotated_sha256": "2e3033ae269a7dbba7879cfb9c880083503cdbca027c45b28718412ff510d003",
+        "annotated_bytes": 3388
+      },
+      {
+        "source": "/home/youlika/code/piper_master_slave_data_collection/src/robot_workbench/hardware/cameras/models/realsense_d435i.py",
+        "path": "src/robot_workbench/hardware/cameras/models/realsense_d435i.py",
+        "bytes": 5419,
+        "sha256": "b6d6846c8c3df41392212e22a98e065ac6e26759ff00cd96162a03eb6fb9bc70",
+        "annotated_sha256": "2a72055c900088d70a3e94ee255c5309debb4d55d13add16e692999297544078",
+        "annotated_bytes": 6149
+      },
+      {
+        "source": "/home/youlika/code/piper_master_slave_data_collection/src/robot_workbench/hardware/cameras/cli.py",
+        "path": "src/robot_workbench/hardware/cameras/cli.py",
+        "bytes": 6355,
+        "sha256": "b9a7cad3fad003de5599e6a0865ba2432df5438f6ed1f534e7c4efce44e6b0d3",
+        "annotated_sha256": "177f7e7f5e72882f9701a047bc8c94baa40ace915865a5abe61c204817bb3e70",
+        "annotated_bytes": 6939
+      },
+      {
+        "source": "/home/youlika/code/piper_master_slave_data_collection/src/robot_workbench/hardware/cameras/devices/__init__.py",
+        "path": "src/robot_workbench/hardware/cameras/devices/__init__.py",
+        "bytes": 245,
+        "sha256": "f56575659ca4d32e351cb9751d052a4193db565bc6c2c6c12f0493ccc53f726d",
+        "annotated_sha256": "f56575659ca4d32e351cb9751d052a4193db565bc6c2c6c12f0493ccc53f726d",
+        "annotated_bytes": 245
+      },
+      {
+        "source": "/home/youlika/code/piper_master_slave_data_collection/src/robot_workbench/hardware/cameras/devices/configured_third_person.py",
+        "path": "src/robot_workbench/hardware/cameras/devices/configured_third_person.py",
+        "bytes": 694,
+        "sha256": "8d528da788174776ac13d8c508e1e88c61848d4a0c4f9a1390992c16d16be6bb",
+        "annotated_sha256": "87126816eee84bbc42e7bb141a891e475800ee219016af5a3dee49272540574e",
+        "annotated_bytes": 789
+      },
+      {
+        "source": "/home/youlika/code/piper_master_slave_data_collection/src/robot_workbench/hardware/cameras/devices/configured_wrist.py",
+        "path": "src/robot_workbench/hardware/cameras/devices/configured_wrist.py",
+        "bytes": 647,
+        "sha256": "6d6872d803ff6ba805c6a9aea89a0e15924a1c42509177a934ed7af223b52104",
+        "annotated_sha256": "0323fad84798d6a85a1a8be215ef4ffed41041bac6edf1eab7e25bb844bac817",
+        "annotated_bytes": 742
+      }
+    ],
+    "scope": "11 个相机文件；仅补中文注释，执行逻辑不变。模型接口按用户补充要求采用 Creator OpenAI 实现，不包含 OpenPI。"
+  },
+  "creator_api_extraction": {
+    "repository": "https://github.com/selfevolv/creator",
+    "revision": "80706ac424c77a42255dba0cf4f89d782e36ae16",
+    "source_metadata": [
+      {
+        "path": "backend/api_backend.py",
+        "blob_sha": "804d0508d35801d546e30856fff557bdb1b26848",
+        "url": "https://github.com/selfevolv/creator/blob/80706ac424c77a42255dba0cf4f89d782e36ae16/backend/api_backend.py"
+      },
+      {
+        "path": "backend/model_catalog.py",
+        "blob_sha": "3b625f1b3dd8de49064316c89f343138180617d2",
+        "url": "https://github.com/selfevolv/creator/blob/80706ac424c77a42255dba0cf4f89d782e36ae16/backend/model_catalog.py"
+      },
+      {
+        "path": "backend/image_batch_types.py",
+        "blob_sha": "9c6b304c6771802560d60dcffade256fd87a4b69",
+        "url": "https://github.com/selfevolv/creator/blob/80706ac424c77a42255dba0cf4f89d782e36ae16/backend/image_batch_types.py"
+      },
+      {
+        "path": "backend/engine.py",
+        "blob_sha": "372badbc082f46aeb95a2a9d34c1ffb2b74dba69",
+        "url": "https://github.com/selfevolv/creator/blob/80706ac424c77a42255dba0cf4f89d782e36ae16/backend/engine.py"
+      }
+    ],
+    "files": [
+      {
+        "source_path": "backend/api_backend.py",
+        "path": "src/robot_workbench/integrations/creator/api_backend.py",
+        "sha256": "94e7614935ea08afdd47f2dc7563c4f59c65318421cffc103c4dfb70474ecbdc",
+        "bytes": 17141,
+        "annotated_sha256": "265ad1929246cd28584628751a1a3c0e324fb13176af06bde7690f2b68914f23",
+        "annotated_bytes": 18067
+      },
+      {
+        "source_path": "backend/model_catalog.py",
+        "path": "src/robot_workbench/integrations/creator/model_catalog.py",
+        "sha256": "59c35b43f2360552e658c8bbb3f4ac148fa2e39daba946d030a97641c1655ede",
+        "bytes": 4030,
+        "annotated_sha256": "fdbe121255748019d65872483e33d695025e86e5464763f609afafcbc9ca362a",
+        "annotated_bytes": 4370
+      },
+      {
+        "source_path": "backend/image_batch_types.py",
+        "path": "src/robot_workbench/integrations/creator/image_batch_types.py",
+        "sha256": "52ded974cef6bc77721bfcfd45bb936b89a2c8617a6606d7bba04718b29536dd",
+        "bytes": 2172,
+        "annotated_sha256": "c8104505aec6465d998d8547b51382990b993b979ada55f805b1930588ca6452",
+        "annotated_bytes": 2561
+      },
+      {
+        "source_path": "backend/engine.py",
+        "source_sha256": "06fa0b4328fc5a8c624cbb1fb45efceb98669302d93d8ca6e2e6eeda4f6e214c",
+        "path": "src/robot_workbench/integrations/creator/engine.py",
+        "selected_constants": [
+          "APP_DIR",
+          "CONFIG_ROOT",
+          "ENV_LLM_API_KEY",
+          "ENV_LLM_BASE_URL",
+          "ENV_LLM_MODEL",
+          "ENV_LLM_TIMEOUT",
+          "LLM_SETTINGS_PATH"
+        ],
+        "selected_functions": [
+          "clean_text",
+          "extract_json_object",
+          "load_persistent_llm_settings"
+        ],
+        "extraction_sha256": "0823425939c5987cf0519dc4e3f1c2b797c104ac558f5f1317c981bbc8aee8a7",
+        "annotated_sha256": "410c40f3d81ee821772fac9728d19ab3ac2900075a8bcf4ef590fe276015d895",
+        "annotated_bytes": 2400
+      }
+    ],
+    "configuration": "不复制配置文件或 API Key；优先向 run 显式传入 config。"
+  },
+  "current_verification": {
+    "camera_individual": [
+      {
+        "role": "third_person",
+        "serial": "263022075100",
+        "info": {
+          "name": "third_person",
+          "backend": "librealsense",
+          "connected": true,
+          "supports_depth": true,
+          "model": "Intel RealSense D435I",
+          "serial": "263022075100",
+          "firmware": "5.15.1.55",
+          "physical_port": "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/video4linux/video6",
+          "usb_type": "3.2",
+          "product_line": "D400"
+        },
+        "capture": "passed",
+        "shape": [
+          480,
+          640,
+          3
+        ],
+        "sequence_delta": 6,
+        "image": "/tmp/selfevolv-third_person-check.jpg",
+        "configuration": {
+          "name": "third_person",
+          "backend": "librealsense",
+          "model": "Intel RealSense D435i",
+          "serial": "263022075100",
+          "width": 640,
+          "height": 480,
+          "fps": 30.0,
+          "warmup_frames": 120,
+          "physical_port": "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/video4linux/video6",
+          "usb_type": "3.2",
+          "firmware": "5.15.1.55",
+          "format": "BGR8",
+          "supports_depth": true,
+          "dataset_streams": [
+            "color"
+          ]
+        }
+      },
+      {
+        "role": "wrist",
+        "serial": "263022072493",
+        "info": {
+          "name": "wrist",
+          "backend": "librealsense",
+          "connected": true,
+          "supports_depth": true,
+          "model": "Intel RealSense D435I",
+          "serial": "263022072493",
+          "firmware": "5.15.1.55",
+          "physical_port": "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/video4linux/video0",
+          "usb_type": "3.2",
+          "product_line": "D400"
+        },
+        "capture": "passed",
+        "shape": [
+          480,
+          640,
+          3
+        ],
+        "sequence_delta": 6,
+        "image": "/tmp/selfevolv-wrist-check.jpg",
+        "configuration": {
+          "name": "wrist",
+          "backend": "librealsense",
+          "model": "Intel RealSense D435i",
+          "serial": "263022072493",
+          "width": 640,
+          "height": 480,
+          "fps": 30.0,
+          "warmup_frames": 120,
+          "physical_port": "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/video4linux/video0",
+          "usb_type": "3.2",
+          "firmware": "5.15.1.55",
+          "format": "BGR8",
+          "supports_depth": true,
+          "dataset_streams": [
+            "color"
+          ]
+        }
+      }
+    ],
+    "camera_dual": {
+      "dual_capture": "passed",
+      "frames": {
+        "third_person": {
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "dtype": "uint8",
+          "sequence_delta": 15,
+          "image": "/tmp/selfevolv-third_person-dual.jpg"
+        },
+        "wrist": {
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "dtype": "uint8",
+          "sequence_delta": 15,
+          "image": "/tmp/selfevolv-wrist-dual.jpg"
+        }
+      },
+      "configuration": {
+        "third_person": {
+          "name": "third_person",
+          "backend": "librealsense",
+          "model": "Intel RealSense D435i",
+          "serial": "263022075100",
+          "width": 640,
+          "height": 480,
+          "fps": 30.0,
+          "warmup_frames": 120,
+          "physical_port": "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/video4linux/video6",
+          "usb_type": "3.2",
+          "firmware": "5.15.1.55",
+          "format": "BGR8",
+          "supports_depth": true,
+          "dataset_streams": [
+            "color"
+          ]
+        },
+        "wrist": {
+          "name": "wrist",
+          "backend": "librealsense",
+          "model": "Intel RealSense D435i",
+          "serial": "263022072493",
+          "width": 640,
+          "height": 480,
+          "fps": 30.0,
+          "warmup_frames": 120,
+          "physical_port": "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/video4linux/video0",
+          "usb_type": "3.2",
+          "firmware": "5.15.1.55",
+          "format": "BGR8",
+          "supports_depth": true,
+          "dataset_streams": [
+            "color"
+          ]
+        }
+      },
+      "latest_frame_skew_ms": 8.631019
+    },
+    "model_interface_offline": {
+      "tests": 7,
+      "result": "passed",
+      "test_file": "tests/test_camera_model.py",
+      "transport": "httpx.MockTransport，无真实模型请求"
+    },
+    "live_openai": "未验证：本机 Creator 默认配置位置不存在，已询问用户 API 配置路径或服务参数。",
+    "hardware_motion": "本次未连接或驱动机械臂。",
+    "annotation_validation": "所有本轮提取源码的可执行 AST 与原始来源一致；原始哈希及注释后哈希分别保留。"
+  }
+}
